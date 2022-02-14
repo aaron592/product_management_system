@@ -465,3 +465,61 @@ a:hover{
 .quantity>span{
     padding:5px;
 }
+
+
+@media only screen and (max-width: 700px){
+    .logo>h2{
+        font-size:30px;
+        width:100%;
+    }
+
+    .cart{
+        margin-right:30px;
+        font-size: 20px;
+    }
+
+    .header{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+       margin-bottom:0px;
+       height:60vh;
+    }
+
+    .heading{
+        width:90%;
+       margin-bottom:0px;
+
+    }
+
+    .header>img{
+       width:100%;
+       padding-bottom:0px;
+       margin-bottom:0px;
+    }
+
+    .container{
+        flex-direction: column;
+        width:100%;
+        flex-wrap: nowrap;
+        column-gap: 0;
+        align-items: center;
+        justify-content: center;
+        margin-top:-40px;
+    }
+
+    .product_container{
+        width:55%;
+    }
+    .image{
+        width:90%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+
+    .image>img{
+        width:80%;
+
+    }
+}
